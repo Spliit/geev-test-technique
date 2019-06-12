@@ -1,0 +1,13 @@
+<div class="specie-people">
+  <h1><a [routerLink]="['/']">Espèces</a>/{{ specieName }}</h1>
+  <div class="card-list row justify-content-center">
+    <div *ngFor="let person of persons" class="person">
+      <div class='card'>
+        <div class="card-image"> <img src="https://imgix.ranker.com/user_node_img/50075/1001499182/original/coruscant-photo-u1?w=650&q=50&fm=pjpg&fit=crop&crop=faces" /> </div>
+        <div class="card-title title-white">
+          <h3>{{ person }}</h3>
+        </div> 
+      </div>
+    </div>
+    </div>
+</div>

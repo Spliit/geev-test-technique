@@ -1,0 +1,13 @@
+<div class="species-list">
+    <h1><a [routerLink]="['/']">Espèces</a></h1>
+  <div class="card-list row justify-content-center">
+  <div *ngFor="let specie of species; index as specieID" class="specie">
+    <div class='card' [routerLink]="['/specie', specieID]">
+      <div class="card-image"> <img src="https://i.pinimg.com/474x/06/02/d8/0602d8ea8b91464de22d5c08e64cee85--space-iphone-wallpaper-planet.jpg" /> </div>
+      <div class="card-title title-white">
+        <h3>{{ specie.name }}</h3>
+      </div> 
+    </div>
+  </div>
+  </div>
+</div>
