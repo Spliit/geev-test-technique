@@ -1,16 +1,16 @@
 (FR)
 # GeevTestTechnique
 
-Ce projet est le résultat d'un test technique réaliser pour l'entrepris Geev suite à un entretien. Il à été réaliser sous Angular 8 à l'aide de plusieurs modules node dont RxJS.
+Ce projet est le résultat d'un test technique réalisé pour l'entreprise Geev suite à un entretien. Il à été réalisé sous Angular 8 à l'aide de plusieurs modules node dont RxJS.
 
-Ce test consiste à récupérer les données d'une API fourni au préalable et de les les afficher en différentes pages à l'aide d'un router.
+Ce test consiste à récupérer les données d'une API fournie au préalable et de les les afficher en différentes pages à l'aide d'un router.
 
 ## Installation
 
 Avant de pouvoir lancer le projet il est nécessaire de le cloner en local grâce à la commande suivante : 
 ```git clone https://github.com/Spliit/geev-test-technique.git```
 
-Ensuite il faut installer les modules nécessaire au bon fonctionnement de l'application, pour ceci un simple ```npm install``` est nécessaire.
+Ensuite il faut installer les modules nécessaires au bon fonctionnement de l'application, pour ceci un simple ```npm install``` suffit.
 
 ## Lancement
 
